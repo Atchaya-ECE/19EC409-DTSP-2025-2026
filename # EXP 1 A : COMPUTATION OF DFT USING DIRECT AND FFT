@@ -1,8 +1,7 @@
 # EXP 1 A : COMPUTATION OF DFT USING DIRECT AND FFT
 
 # AIM: 
-
-# To Obtain DFT and FFT of a given sequence in SCILAB. 
+To Obtain DFT and FFT of a given sequence in SCILAB. 
 
 # APPARATUS REQUIRED: 
 PC installed with SCILAB. 
@@ -26,7 +25,6 @@ for k = 0:N-1
         X(k+1) = X(k+1) + x(n+1) * exp(-%i * 2 * %pi * k * n / N);
     end
 end
-```
 // Frequency axis (normalized)
 f = (0:N-1) / N;
 
@@ -38,6 +36,7 @@ xtitle("Magnitude Spectrum of DFT");
 subplot(2,1,2);
 plot2d3(f, atan(imag(X), real(X))); // atan2 for phase
 xtitle("Phase Spectrum of DFT");
+```
 
 # OUTPUT: 
 https://cdn.corenexis.com/view/6383461168
