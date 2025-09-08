@@ -48,7 +48,8 @@ xlabel("Frequency (Hz)");
 ylabel("Phase (radians)");
 title("Phase Spectrum of Audio Signal");
 # OUTPUT: 
-https://cdn.corenexis.com/view/1874784168
+![WhatsApp Image 2025-09-08 at 15 35 22_abb7b8e4](https://github.com/user-attachments/assets/e253ba58-a179-4761-b2c3-3c540cb71314)
+
 
 # RESULTS
 Audio signal by removing unwanted frequency was analysised
