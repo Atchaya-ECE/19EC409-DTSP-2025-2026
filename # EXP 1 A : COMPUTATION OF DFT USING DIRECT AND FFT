@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
+```
 // DISCRETE FOURIER TRANSFORM 
 clc;
 clear;
@@ -25,7 +26,7 @@ for k = 0:N-1
         X(k+1) = X(k+1) + x(n+1) * exp(-%i * 2 * %pi * k * n / N);
     end
 end
-
+```
 // Frequency axis (normalized)
 f = (0:N-1) / N;
 
