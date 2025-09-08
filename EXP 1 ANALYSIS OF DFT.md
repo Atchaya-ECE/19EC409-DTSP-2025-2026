@@ -47,9 +47,9 @@ plot(f, atan(imag(Y), real(Y)));  // Phase
 xlabel("Frequency (Hz)");
 ylabel("Phase (radians)");
 title("Phase Spectrum of Audio Signal");
-# OUTPUT: 
-![WhatsApp Image 2025-09-08 at 15 35 22_abb7b8e4](https://github.com/user-attachments/assets/e253ba58-a179-4761-b2c3-3c540cb71314)
 
+# OUTPUT: 
+![WhatsApp Image 2025-09-08 at 15 44 14_a425ca46](https://github.com/user-attachments/assets/b22a11ab-8dad-4c35-b162-1e9c530d032e)
 
 # RESULTS
 Audio signal by removing unwanted frequency was analysised
