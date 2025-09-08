@@ -7,6 +7,7 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
+```
 // Load audio
 [x, fs] = wavread("C:\Users\acer\Downloads\waptt");
 
@@ -26,6 +27,7 @@ playsnd(y, fs);
 
 // Save the trimmed audio
 wavwrite(y, fs, "C:\Users\acer\Downloads\waptt2_trimmed");
+```
 
 # RESULT: 
   Analysis of audio signal for noise removal was removed.
