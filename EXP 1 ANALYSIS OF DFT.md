@@ -8,8 +8,6 @@
 
 # PROGRAM:
 ```
-// EXP 1: ANALYSIS OF DFT WITH AUDIO SIGNAL
-// AIM: To analyze audio signal by removing unwanted frequency
 clc; clear;
 
 // -------------------------
