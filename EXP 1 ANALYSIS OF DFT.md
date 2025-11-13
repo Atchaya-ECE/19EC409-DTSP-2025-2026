@@ -28,7 +28,6 @@ cut_samples = round(2 * fs);
 if length(x) > cut_samples then
     x = x(cut_samples+1:$);
 end
-
 // -------------------------
 // Step 3: Play original / trimmed audio
 // -------------------------
